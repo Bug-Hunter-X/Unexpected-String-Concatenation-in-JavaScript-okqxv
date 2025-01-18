@@ -1,0 +1,1 @@
+This repository demonstrates a common JavaScript bug: unexpected string concatenation due to JavaScript's loose typing. The `foo` function intends to add two numbers but unintentionally concatenates a number and a string. The `bar` function showcases this behavior. The solution involves explicit type checking or using the `parseInt()` method for reliable numeric addition.
